@@ -12,6 +12,7 @@
 		182792802B4FA5EA00031646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827927F2B4FA5EA00031646 /* Assets.xcassets */; };
 		182792832B4FA5EA00031646 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182792822B4FA5EA00031646 /* Preview Assets.xcassets */; };
 		185C82BB2B5108DD00B8D8F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C82BA2B5108DD00B8D8F8 /* HomeView.swift */; };
+		18BAFFF72B51781C005C07C3 /* ProfileVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BAFFF62B51781C005C07C3 /* ProfileVw.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1827927F2B4FA5EA00031646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182792822B4FA5EA00031646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		185C82BA2B5108DD00B8D8F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18BAFFF62B51781C005C07C3 /* ProfileVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVw.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				1827927B2B4FA5E300031646 /* SwiftUIElementsApp.swift */,
 				1827927D2B4FA5E300031646 /* ContentView.swift */,
 				185C82BA2B5108DD00B8D8F8 /* HomeView.swift */,
+				18BAFFF62B51781C005C07C3 /* ProfileVw.swift */,
 				1827927F2B4FA5EA00031646 /* Assets.xcassets */,
 				182792812B4FA5EA00031646 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BAFFF72B51781C005C07C3 /* ProfileVw.swift in Sources */,
 				185C82BB2B5108DD00B8D8F8 /* HomeView.swift in Sources */,
 				1827927E2B4FA5E300031646 /* ContentView.swift in Sources */,
 				1827927C2B4FA5E300031646 /* SwiftUIElementsApp.swift in Sources */,

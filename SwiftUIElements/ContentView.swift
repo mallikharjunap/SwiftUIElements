@@ -43,11 +43,11 @@ struct ContentView: View {
         
         
         
-//        /*  Image */
-//        Image(systemName: "star.fill")
-//            .resizable()
-//            .frame(width: 30.0,height: 40.0)
-//            .foregroundColor(.red)
+        /*  Image */
+        Image(systemName: "star.fill")
+            .resizable()
+            .frame(width: 30.0,height: 40.0)
+            .foregroundColor(.red)
         
         
         
