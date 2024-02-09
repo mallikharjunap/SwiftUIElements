@@ -38,10 +38,7 @@ struct ContentView: View {
         
            20
         }
-            
-            
-        
-        
+      
         
         /*  Image */
         Image(systemName: "star.fill")

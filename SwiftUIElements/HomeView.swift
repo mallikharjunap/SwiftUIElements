@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State private var homeToggle:Bool = false
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        Text("checking")
+    
+        
+        
+        
+        Button {
+            
+            homeToggle =  true
+        } label: {
+            Text("Moving to Storyboard")
+            
+            
+        }
+        
+        if homeToggle{
+            Stroyboardwrapper()
+        }
+
     }
 }
 
