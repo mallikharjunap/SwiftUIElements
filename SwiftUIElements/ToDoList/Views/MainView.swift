@@ -11,8 +11,7 @@ import SwiftUI
 struct MainView: View {
     
     
-    @State  var email:String = ""
-    @State  var password:String = ""
+    
     @State var homeDetailPage = false
     
     //var items = ["item 1","item2","item3","item4"]
@@ -21,14 +20,11 @@ struct MainView: View {
         
         VStack {
             //HeaderView
+            LoginView()
+            
+            
+            
 
-            NavigationView {
-                LoginView()
-            }
-            Form{
-                
-                TextField("Email Address",text: <#T##Binding<String>#>)
-            }
             //Text("User Name")
 //            .foregroundColor(.blue)
 //            .frame(maxWidth: .infinity,alignment: .leading)
