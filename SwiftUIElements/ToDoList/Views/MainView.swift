@@ -9,10 +9,9 @@
 import SwiftUI
 
 struct MainView: View {
-    
-    
-    
+
     @State var homeDetailPage = false
+    @StateObject var viewModel = MainViewViewModel()
     
     //var items = ["item 1","item2","item3","item4"]
     var body: some View {
@@ -20,8 +19,13 @@ struct MainView: View {
         
         VStack {
             //HeaderView
-            LoginView()
             
+            if viewModel.isSigned,!viewModel.currentUserId.isEmpty  {
+                
+             ToDoListView()
+            }else{
+                LoginView()
+            }
             
             
 

@@ -10,6 +10,7 @@
 		18108E482B75FEBB005EBCFB /* StoryBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18108E472B75FEBB005EBCFB /* StoryBoardView.swift */; };
 		18108E4A2B76013F005EBCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18108E492B76013F005EBCFB /* Main.storyboard */; };
 		18108E4C2B7602F3005EBCFB /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18108E4B2B7602F3005EBCFB /* loginPage.swift */; };
+		181506812B83B77C000D3932 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181506802B83B77C000D3932 /* Extension.swift */; };
 		1827927C2B4FA5E300031646 /* SwiftUIElementsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827927B2B4FA5E300031646 /* SwiftUIElementsApp.swift */; };
 		1827927E2B4FA5E300031646 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827927D2B4FA5E300031646 /* MainView.swift */; };
 		182792802B4FA5EA00031646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827927F2B4FA5EA00031646 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		18108E472B75FEBB005EBCFB /* StoryBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardView.swift; sourceTree = "<group>"; };
 		18108E492B76013F005EBCFB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		18108E4B2B7602F3005EBCFB /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		181506802B83B77C000D3932 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		182792782B4FA5E300031646 /* SwiftUIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1827927B2B4FA5E300031646 /* SwiftUIElementsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIElementsApp.swift; sourceTree = "<group>"; };
 		1827927D2B4FA5E300031646 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				1872C6822B7B9C8B00D7BDD1 /* GoogleService-Info.plist */,
 				1827927F2B4FA5EA00031646 /* Assets.xcassets */,
 				1827927B2B4FA5E300031646 /* SwiftUIElementsApp.swift */,
+				181506802B83B77C000D3932 /* Extension.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				18108E4C2B7602F3005EBCFB /* loginPage.swift in Sources */,
 				1869E8CA2B7C9A3200F051C4 /* RegisterViewViewModel.swift in Sources */,
 				1869E8C02B7C999900F051C4 /* MainViewViewModel.swift in Sources */,
+				181506812B83B77C000D3932 /* Extension.swift in Sources */,
 				1869E8BE2B7C995F00F051C4 /* ToDoListItem.swift in Sources */,
 				1883BA782B7C907800CC3735 /* ToDoListView.swift in Sources */,
 				1869E8C42B7C99E500F051C4 /* ToDoListViewViewModel.swift in Sources */,

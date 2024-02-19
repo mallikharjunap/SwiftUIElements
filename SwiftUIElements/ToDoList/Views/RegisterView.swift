@@ -9,26 +9,33 @@ import SwiftUI
 
 struct RegisterView: View {
     
-    @State var name = ""
-    @State var email = ""
-    @State var password = ""
+    @StateObject var registerModel = RegisterViewViewModel()
+    
     var body: some View {
         VStack{
             HeaderView(title: "Register", Subtitle: " Start Orgainising todo", angle: -15, background: .yellow)
             
             Form {
                 
-                TextField("Full Name", text: $name)
+                if !registerModel.errorMessage.isEmpty {
+                    Text(registerModel.errorMessage)
+                        .foregroundColor(Color.red)
+                }
+                
+                TextField("Full Name", text: $registerModel.name)
                     .textFieldStyle(DefaultTextFieldStyle())
-                TextField("Email Adress", text: $email)
+                    .autocorrectionDisabled()
+                TextField("Email Adress", text: $registerModel.email)
                     .textFieldStyle(DefaultTextFieldStyle())
-                TextField("Password", text: $password)
+                    .autocapitalization(.none)
+                    .autocorrectionDisabled()
+                SecureField("Password", text: $registerModel.password)
                     .textFieldStyle(DefaultTextFieldStyle())
                 TLButton(
                     title: "Create Account",
                     backgroundColr: .green
                 ){
-                    //Action
+                    registerModel.regsiter()
                 }
                 .padding()
             }
